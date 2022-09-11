@@ -1,0 +1,38 @@
+.div{
+    width: 100vw;
+}
+body{
+    margin: 0;
+}
+
+.header__logo {
+    margin: 0;
+    font-size: 35px;
+}
+
+.container__first-block {
+    background: url("test.jpg") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 741px;
+}
+
+.header {
+    max-width: 90%;
+    min-width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.header__wrapper {
+    border-bottom: 1px solid grey;
+}
+.h1-size{
+    font-size: 50px;
+    font-family: Arial;
+    margin: 0;
+    padding-left: 50px;
+}
